@@ -24,8 +24,5 @@ export class LoginPage extends BasePage {
     await this.fillInput(this.password, password)
     await this.clickElement(this.continueBtn)
   }
-
-  async verifyLoginError() {
-    // await expect(this.page.locator(this.errorMessage)).toBeVisible();
-  }
+  
 }
