@@ -69,7 +69,6 @@ npx allure serve allure-results
 ```
 testautomation/
 │── .env
-│── .env.example
 │── .gitignore
 │── package.json
 │── playwright.config.ts
