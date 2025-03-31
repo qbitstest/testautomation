@@ -87,10 +87,10 @@ testautomation/
 ---
 ## 📜 Test Cases Implemented
 - ✅ **Hudl Login Tests :** 
-Goto site home and Login with valid credentials → Expect successful login
+Goto site home and Login with valid credentials → Expect successful login\
 Login with invalid credentials should show error → Expect error message
 - ✅ **Hudl Homepage Tests :** 
-Goto library and check video available → Confirm searched video exist in library, play it and return back
+Goto library and check video available → Confirm searched video exist in library, play it and return back\
 Goto team profile and validate team name with club name → Confirm team name contains text from joined clubname
 ---
 ## 📌 Next Steps
