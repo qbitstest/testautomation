@@ -13,19 +13,19 @@ This is a fully functional **end-to-end test automation framework** using **Play
 git clone https://github.com/qbitstest/testautomation.git
 cd testautomation
 ```
-### **2. Install dependencies**
+### **2. Change the directory**
+```sh
+cd testautomation
+```
+### **3. Install dependencies**
 ```sh
 npm install
 ```
-### **3. Install Playwright Browsers**
+### **4. Install Playwright Browsers**
 ```sh
 npx playwright install --with-deps
 ```
-### **4. Setup Environment**
-#### Change directory
-```ini
-cd testautomation
-```
+### **5. Setup Environment**
 #### **Create `.env` file in the root directory of the repo**
 ```ini
 BASE_URL=https://www.hudl.com
@@ -60,6 +60,12 @@ npx playwright test --headed
 npx playwright test --ui
 ```
 ---
+## 📊 Viewing Test Reports
+After running tests, generate and view an HTML report:
+```sh
+npx allure serve allure-results
+```
+---
 ## 📑 Project Structure
 ```
 testautomation/
@@ -88,12 +94,6 @@ Login with invalid credentials should show error → Expect error message
 - ✅ **Hudl Homepage Tests :** 
 Goto library and check video available → Confirm searched video exist in library, play it and return back
 Goto team profile and validate team name with club name → Confirm team name contains text from joined clubname
----
-## 📊 Viewing Test Reports
-After running tests, generate and view an HTML report:
-```sh
-npx allure serve allure-results
-```
 ---
 ## 📌 Next Steps
 - ✅ Expand test cases (Create Account, Continue with Google/Facebook/Apple, etc.)
