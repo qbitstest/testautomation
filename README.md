@@ -21,7 +21,11 @@ npm install
 ```sh
 npx playwright install --with-deps
 ```
-### **4. Setup Environment Variables**
+### **4. Setup Environment**
+#### Change directory
+```ini
+cd testautomation
+```
 #### **Create `.env` file in the root directory of the repo**
 ```ini
 BASE_URL=https://www.hudl.com
@@ -29,7 +33,9 @@ USERNAME=email@example.com
 PASSWORD=password
 INVALID_PASSWORD=Test@123
 ```
-🚨 **Note:** Do not commit `.env` file. Add it to `.gitignore`.
+🚨 **Note:** 
+- Replace username and password with your values
+- Do not commit `.env` file. Add it to `.gitignore`.
 ---
 ## 🚀 Running the Tests
 ### **Change config values (as needed)**
