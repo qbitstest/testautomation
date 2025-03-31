@@ -11,7 +11,6 @@ This is a fully functional **end-to-end test automation framework** using **Play
 ### **1. Clone the repository**
 ```sh
 git clone https://github.com/qbitstest/testautomation.git
-cd testautomation
 ```
 ### **2. Change the directory**
 ```sh
