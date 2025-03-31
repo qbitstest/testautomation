@@ -10,7 +10,7 @@ This is a fully functional **end-to-end test automation framework** using **Play
 ## 🛠️ Setup Instructions
 ### **1. Clone the repository**
 ```sh
-git clone <https://github.com/qbitstest/testautomation.git>
+git clone https://github.com/qbitstest/testautomation.git
 cd testautomation
 ```
 ### **2. Install dependencies**
