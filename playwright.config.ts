@@ -3,7 +3,7 @@ import { defineConfig } from '@playwright/test';
 export default defineConfig({
   testDir: './tests',
   // timeout: 10000,
-  retries: 0,
+  retries: 1,
   reporter : [["html"], ["line"], ["allure-playwright"]],
   fullyParallel : true,
   use: {

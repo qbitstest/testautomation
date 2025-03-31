@@ -4,8 +4,8 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 export const ENV = {
-  BASE_URL: process.env.BASE_URL || 'https://hudl.com',
+  BASE_URL: process.env.BASE_URL || '',
   USERNAME: process.env.USERNAME || '',
   PASSWORD: process.env.PASSWORD || '',
-  INVALID_PASSWORD: process.env.INVALID_PASSWORD || 'Test@123',
+  INVALID_PASSWORD: process.env.INVALID_PASSWORD || '',
 };
